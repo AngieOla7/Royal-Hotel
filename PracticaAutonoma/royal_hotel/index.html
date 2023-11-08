@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Hotel</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+
+  <!--INICIA HEADER-->
+  <header>
+    <div class="container-fluid p-3 text-white bg-dark">
+      <div class="b-example-divider"></div>
+
+      <div class="px-900 py-2 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a class="d-flex align-items-center my-100 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                <use xlink:href="#bootstrap" />
+              </svg>
+              <text><strong>ROYAL HOTEL</strong>
+                <img src="img/img.png" style="width: 40px; height: 40px; padding:3px;">
+            </a>
+            </text>
+          </div>
+        </div>
+      </div>
+  </header>
+  <!--TERMINA HEADER-->
+
+
+  <!-- INICIA BARRA DE NAVEGACIÓN-->
+  <div class="container-fluid bg-primary">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-lg nav-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><em>We are anywhere in the world! </em></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Planifica tu visita
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Reservaciones</a></li>
+                  <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Ubicaciones</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Instalaciones</a>
+              </li>
+            </ul>
+          </div></div>
+      </nav>
+    </div>
+  </div>
+  <!-- FIN DE BARRA DE NAVEGACIÓN-->
+
+
+  <!-- INICIA CARROUSEL-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/img1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/img3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- TERMINA CARROUSEL-->
+
+
+
+  <!-- INICIA CONTENEDOR-->
+  <div class="container mt-5"><!--Margen 1-5-->
+    <div class="row justify-content-center"><!-- Justificar el contenido al centro-->
+      <div class="col-12 col-md-8">
+        <div class="text-center gap-5">
+          <h1 class="text-white">ROYAL HOTEL </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-white">
+    <h3 class="text-center gap-5 text-white">
+      <font face="Comic Sans MS,Arial,Verdana">The guest is the king
+    </h3>
+    <br>
+  </div>
+  <!-- TERMINA CONTENEDOR-->
+
+
+  <!--INICIA ACORDEON-->
+  <div class="container py-3 text-center m-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+
+              <button style="background-color: #1e5a5c;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <h5 class="text-white">PAQUETE #1 </h>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Oferta familiar. <br></strong>"ROYAL HOTEL VERACRUZ" <br>
+                *PAQUETE 1.<br>
+                Hotel de 5 estrellas <br>
+                habitacion familiar (4 personas) <br>
+                Desayuno incluido <br>
+                Tour por la ciudad y acuario marino frente a la playa
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button style="background-color: #1e5a5c;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h5 class="text-white">PAQUETE #2 </h>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Oferta viajes de negocios.</strong><br> " ROYAL HOTEL MEXICO"<br>
+                Hotel 5 estrellas <br>
+                Habitacion clasica <br>
+                Desayuno y almuerzo incluidos <br>
+                wi-fi gratis <br>
+                renta de automoviles.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button style="background-color: #1e5a5c;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h5 class="text-white">PAQUETE #3 </h>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Oferta por temporada.<br></strong> "ROYAL HOTEL CULIACAN"<br>
+                Hotel 5 estrellas <br>
+                Habitacion delux <br>
+                Todo incluido <br>
+                Tour por la ciudad <br>
+                Visitas al Jardín botánico y Parque las riberas<br>
+                Ideal para unas vacaciones en pareja.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <!--TERMINA ACORDEON-->
+
+
+
+  <!--INICIA CARDS-->
+  <div class="container py-3 text-center justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-4 m-3 m-md-0">
+
+        <div class="card">
+          <img src="./img/OBJETIVO.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">O B J E T I V O</h5>
+            <p class="card-text">
+              En Royal Hotel queremos ser su opción número uno, dando la mejor atención al huésped.<br>
+              Además trabajamos para que encuentren la comodidad a cualquier lugar donde vaya. <BR>
+            </p>
+            <a href="#" class="btn btn-primary">Saber más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 m-3 m-md-0">
+        <div class="card">
+          <img src="./img/CARD2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">M I S I Ó N</h5>
+            <p class="card-text">
+              El huésped es nuestro rey, le brindaremos nuestros mejores servicios y
+              lo atenderemos como en casa, para que se sienta cómodo.<br><br>
+            </p>
+            <a href="#" class="btn btn-primary">Saber más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 m-3 m-md-0">
+        <div class="card">
+          <img src="./img/CARD3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">V I S I Ó N</h5>
+            <p class="card-text">
+              Pronto esperamos expandir Royal Hotel por todo continente
+              dándole una experiencia inolvidable.<br><br><br>
+            </p>
+            <a href="#" class="btn btn-primary">Saber más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br><br>
+  <!--TERMINA CARDS-->
+
+
+
+  <!--Enlace a Javascript-->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- FOOTER -->
+  <div class="div">
+    <div class="div-2 container-fluid p-5 text-white bg-dark">
+
+      <h3>ATENCIÓN TELEFÓNICA</h3>
+      <h3>55 5257-6969</h3><br>
+      <h5>Integrantes del equipo:</h5>
+      <h5>Lluvia Coca Grimaldo.</h5>
+      <h5>Angélica Gisel De La Torre Segura.</h5>
+      <h5>Monica García Castillo.</h5>
+      <h5>Regina Ledezma Torres.</h5>
+      <h5>Perla Janeth Sanchez Acuña.</h5>
+      <br>
+      <span class="mb-3 mb-md-0 text-white">&copy; 2023 Royal Hotel. Todos los derechos reservados.</span>
+    </div>
+
+</body>
+</html> 
